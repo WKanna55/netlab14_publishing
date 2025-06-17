@@ -1,0 +1,77 @@
+## Archivos de compilación y binarios
+bin/
+obj/
+out/
+
+## Configuración de usuario de Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Archivos de publicación
+.publish/
+
+## Paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+## Logs
+*.log
+
+## Sistema operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.DS_Store
+
+## Archivos de entorno y secretos
+*.env
+*.env.*
+secrets.json
+appsettings.Development.json
+
+## Cache y salida temporal
+*.tmp
+*.bak
+*.old
+*.cache/
+*.pid
+
+## Archivos de lock y dependencias generadas
+project.lock.json
+project.fragment.lock.json
+
+## Archivos generados por herramientas
+Generated_Code/
+
+## Archivos de test
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.testresult
+
+## Archivos de Rider y JetBrains
+.idea/
+*.sln.iml
+
+## Archivos de configuración de localdb (si aplica)
+*.mdf
+*.ldf
+
+## Archivos de configuración de IIS Express (si se usa para pruebas locales)
+.vs/config/applicationhost.config
+
+## Certificados locales
+*.pfx
+*.key
+*.cer
+
+## Archivos de configuración de usuario de dotnet
+dotnet.user.json
